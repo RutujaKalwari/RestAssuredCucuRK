@@ -12,6 +12,8 @@ public class MyRestAssuredTest {
 		
 		Response res1 = RestAssured.given().get("https://www.google.co.in/");
 		System.out.println("Output "+res1.statusCode());
+		
+		System.out.println("This is first time update on my git");
 
 
 	}
